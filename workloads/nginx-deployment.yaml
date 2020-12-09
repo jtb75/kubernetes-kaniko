@@ -18,6 +18,6 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: jtb75/kubekan/nginx:v3
+        image: jtb75/kubekan:v3
         ports:
         - containerPort: 80
